@@ -1,0 +1,21 @@
+{
+  "name": "nodesms",
+  "version": "1.0.0",
+  "description": "una app sencilla para enviar sms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "sms"
+  ],
+  "author": "Miguel vazquez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nexmo": "^2.4.0",
+    "nodemon": "^1.18.7"
+  }
+}
